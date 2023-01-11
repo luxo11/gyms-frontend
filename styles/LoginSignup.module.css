@@ -1,0 +1,47 @@
+.signup-form, .login-form{
+    max-width: 550px;
+    margin: 100px auto 0px auto;
+    padding: 20px;
+  }
+  .signup-form h3, .login-form h3 {
+    text-align: center;
+  }
+  .signup-form input, .login-form input {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  .signup-form .pass-requirements {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    background: #f0f0f0;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .signup-form .pass-requirements .valid {
+    color: green;
+  }
+  .signup-form .pass-requirements .invalid {
+    color: red;
+  }
+  .signup-form input.error, .login-form input.error {
+    border: 2px solid #ef7197;
+  }
+  .signup-form button, .login-form button {
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+  }
+  .signup-form div.error, .login-form div.error {
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background: #ef7197;
+    color: #9a1111;
+  }

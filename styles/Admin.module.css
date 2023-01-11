@@ -1,0 +1,102 @@
+.admin-container {
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 50px auto;
+  }
+  .admin-menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .add-gym {
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #363f45;
+    border: 1px solid #363f45;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 25px;
+    transition: 0.5s;
+  }
+  .add-gym:hover {
+    text-decoration: underline;
+  }
+/* Add/Edit */
+  .new-gym-container {
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 50px auto;
+  }
+  .new-gym-form {
+    max-width: 80%;
+    padding-bottom: 100px;
+  }
+  .label-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .new-gym-form label {
+    display: block;
+    margin: 10px 0;
+  }
+  .required {
+    color: red;
+    margin-left: 5px;
+    transform: translateY(2px);
+  
+  }
+  .new-gym-form input:not([type='checkbox']), .new-gym-form textarea {
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    border: 1px solid #ddd;
+  }
+  .new-gym-form input[type='checkbox'] {
+    width: 17px;
+    height: 17px;
+    accent-color: #363f45;
+  }
+  .new-gym-form .opening-hours-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+  .new-gym-form .categories-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+  .new-gym-form .categories-wrapper .category {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 10px;
+  }
+  .new-gym-form button {
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+  }
+  .new-gym-form input.error, .new-gym-form textarea.error {
+    border: 2px solid #ef7197;
+  }
+  .new-gym-form div.error {
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background: #ef7197;
+    color: #9a1111;
+  }
+
+  @media (max-width: 768px) {
+    .new-gym-form {
+      max-width: 100%;
+    }
+  } 
+  

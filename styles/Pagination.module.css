@@ -1,0 +1,22 @@
+.pagination-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .pagination-wrapper > * {
+    cursor: pointer;
+    user-select: none;
+    padding: 20px 30px;
+    background: #fff;
+    color: #363f45;
+    border: 1px solid #363f45;
+    border-radius: 5px;
+    transition: 0.5s;
+  }
+  .pagination-wrapper > *:hover, .pagination-wrapper .active {
+    background-color: #363f45;
+    color: #fff;
+    border: 1px solid white;
+  }

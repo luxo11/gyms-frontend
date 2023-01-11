@@ -1,0 +1,114 @@
+.gym-detail-container {
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 50px auto;
+  }
+  .gym-detail-container > div:first-child {
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+  }
+  .gym-detail-container .main-content{
+    width: 66%;
+  }
+  .gym-detail-container .side-content{
+    width: 32%;
+  }
+  .gym-detail-container .side-content .sticky-wrapper{
+    position: sticky;
+    top: 75px;
+  }
+  .gym-detail-container .background{
+    width: 100%;
+    padding-top: 56.25%;
+    position: relative;
+  }
+  .gym-detail-container .background img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .gym-detail-container h1 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .gym-detail-container :where(.city, .address, .phone, .email) {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .gym-detail-container i{
+    color: #000;
+    margin-right: 10px;
+  }
+  .gym-detail-container h2{
+    margin-bottom: 10px;
+  }
+  .gym-detail-container .description p{
+    line-height: 25px;
+  }
+  aside .opening-hours h2{
+    margin-bottom: 15px;
+  }
+  aside .opening-hours li{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  aside .opening-hours li:nth-child(even){
+    background-color: #fff;
+  }
+  aside .opening-hours li:nth-child(odd){
+    background-color: #363f45;
+    color: #fff;
+  }
+  aside .socials {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  aside .socials h2{
+    width: 100%;
+    margin-top: 15px;
+  }
+  aside .socials .social-icons {
+    display: flex;
+    width: 100%;
+  }
+  aside .socials .social-icons i {
+    font-size: 2rem;
+  }
+  aside .categories h2 {
+    margin: 10px 0px;
+  }
+  aside .categories ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  aside .categories li {
+    background-color: #fff;
+    color: #363f45;
+    border: 1px solid #363f45;
+    border-radius: 5px;
+    padding: 10px 25px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .gym-detail-container {
+      margin: 10px auto;
+    }
+    .gym-detail-container .main-content{
+      width: 100%;
+    }
+    .gym-detail-container .side-content{
+      width: 100%;
+    }
+  }   
