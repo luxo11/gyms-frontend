@@ -75,7 +75,7 @@ const GymsList = (props) => {
                     <div key={gym._id} className={gymStyles['gym-wrapper']}>
                         <div className={gymStyles['img-wrapper']}>
                             <Link href={`/gym/${gym._id}/${handleAnchor(gym.name)}`}>
-                                <img src={'http://localhost:4000/images/' + gym.imageName} alt="gym" />
+                            <img src={process.env.NEXT_PUBLIC_API_URL + '/images/' + gym.imageName} alt="gysm" />
                             </Link>
                         </div>
                         <div className={gymStyles['body-wrapper']}>
