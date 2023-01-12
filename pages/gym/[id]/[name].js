@@ -50,7 +50,7 @@ const GymDetail = (props) => {
                 <div>
                     <div className={gymStyles['main-content']}>
                         <div className={gymStyles['background']}>
-                            <img src={'http://localhost:4000/images/' + gym.imageName} alt="gym" />
+                            <img src={process.env.NEXT_PUBLIC_API_URL + '/images/' + gym.imageName} alt="gysm" />
                         </div>
                         <h1 className={gymStyles['name']}>{gym.name}</h1>
                         <div className={gymStyles['city']}>
