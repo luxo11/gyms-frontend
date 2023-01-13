@@ -36,6 +36,9 @@
     padding: 10px;
     width: 100%;
     cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
   .signup-form div.error, .login-form div.error {
     margin-top: 10px;

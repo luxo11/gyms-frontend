@@ -29,4 +29,7 @@
     padding: 10px;
     cursor: pointer;
     color: #000;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
